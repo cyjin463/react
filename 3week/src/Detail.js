@@ -5,8 +5,8 @@ import styled from "styled-components";
 import App from "./App.css";
 
 const StarRating = ({ location }) => {
-    const random = Math.floor(Math.random() * 5) +1;
-    console.log(random)
+    // const random = Math.floor(Math.random() * 5) +1;
+    // console.log(random)
     const day = location.state;
     const [rating, setRating] = useState(null);
     const [hover, setHover] = useState(null);
